@@ -1,0 +1,157 @@
+{
+    "version": 4,
+    "env": {
+        "SDK_ROOT": "${workspaceFolder}/nRF5_SDK_16"
+    },
+    "configurations": [
+        {
+            "name": "pca10040/s132",
+            "defines": [
+                "APP_TIMER_V2",
+                "APP_TIMER_V2_RTC1_ENABLED",
+                "BOARD_PCA10040",
+                "CONFIG_GPIO_AS_PINRESET",
+                "FLOAT_ABI_HARD",
+                "NRF52",
+                "NRF52832_XXAA",
+                "NRF52_PAN_74",
+                "NRF_SD_BLE_API_VERSION=7",
+                "S132",
+                "SOFTDEVICE_PRESENT"
+            ],
+            "includePath": [
+                "src", "${SDK_ROOT}/**",
+                "${workspaceFolder}/targets/pca10040/s132/config"
+            ],
+            "browse": {
+                "path": [
+                    "src", "${SDK_ROOT}/**",
+                    "${workspaceFolder}/targets/pca10040/s132/config"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compilerPath": "arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/.vscode/undef.h"
+            ]
+        },
+        {
+            "name": "pca10040e/s112",
+            "defines": [
+                "APP_TIMER_V2",
+                "APP_TIMER_V2_RTC1_ENABLED",
+                "BOARD_PCA10040",
+                "CONFIG_GPIO_AS_PINRESET",
+                "DEVELOP_IN_NRF52832",
+                "FLOAT_ABI_SOFT",
+                "NRF52810_XXAA",
+                "NRF52_PAN_74",
+                "NRFX_COREDEP_DELAY_US_LOOP_CYCLES=3",
+                "NRF_SD_BLE_API_VERSION=7",
+                "S112",
+                "SOFTDEVICE_PRESENT"
+            ],
+            "includePath": [
+                "src", "${SDK_ROOT}/**",
+                "${workspaceFolder}/targets/pca10040e/s112/config"
+            ],
+            "browse": {
+                "path": [
+                    "src", "${SDK_ROOT}/**",
+                    "${workspaceFolder}/targets/pca10040e/s112/config"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compilerPath": "arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfloat-abi=soft"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/.vscode/undef.h"
+            ]
+        },
+        {
+            "name": "pca10056/s140",
+            "defines": [
+                "APP_TIMER_V2",
+                "APP_TIMER_V2_RTC1_ENABLED",
+                "BOARD_PCA10056",
+                "CONFIG_GPIO_AS_PINRESET",
+                "FLOAT_ABI_HARD",
+                "NRF52840_XXAA",
+                "NRF_SD_BLE_API_VERSION=7",
+                "S140",
+                "SOFTDEVICE_PRESENT"
+            ],
+            "includePath": [
+                "src", "${SDK_ROOT}/**",
+                "${workspaceFolder}/targets/pca10056/s140/config"
+            ],
+            "browse": {
+                "path": [
+                    "src", "${SDK_ROOT}/**",
+                    "${workspaceFolder}/targets/pca10056/s140/config"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compilerPath": "arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/.vscode/undef.h"
+            ]
+        },
+        {
+            "name": "pca10056e/s112",
+            "defines": [
+                "APP_TIMER_V2",
+                "APP_TIMER_V2_RTC1_ENABLED",
+                "BOARD_PCA10056",
+                "CONFIG_GPIO_AS_PINRESET",
+                "DEVELOP_IN_NRF52840",
+                "FLOAT_ABI_SOFT",
+                "NRF52811_XXAA",
+                "NRFX_COREDEP_DELAY_US_LOOP_CYCLES=3",
+                "NRF_SD_BLE_API_VERSION=7",
+                "S112",
+                "SOFTDEVICE_PRESENT"
+            ],
+            "includePath": [
+                "src", "${SDK_ROOT}/**",
+                "${workspaceFolder}/targets/pca10056e/s112/config"
+            ],
+            "browse": {
+                "path": [
+                    "src", "${SDK_ROOT}/**",
+                    "${workspaceFolder}/targets/pca10056e/s112/config"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compilerPath": "arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfloat-abi=soft"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/.vscode/undef.h"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+# nrf sdk
+/nRF5_SDK_16
+
+# build output
+/targets/**/_build
+
+# misc
+**/.DS_Store
