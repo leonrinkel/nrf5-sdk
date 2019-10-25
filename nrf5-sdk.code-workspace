@@ -1,31 +1,15 @@
 {
 	"folders": [
 		{
-            "path": "targets/pca10040/s132/armgcc",
-            "name": "pca10040/s132"
+			"path": "targets/pca10040/s132",
+			"name": "pca10040/s132"
 		},
 		{
-            "path": "targets/pca10040e/s112/armgcc",
-            "name": "pca10040e/s112"
-		},
-		{
-            "path": "targets/pca10056/s140/armgcc",
-            "name": "pca10056/s140"
-		},
-		{
-            "path": "targets/pca10056e/s112/armgcc",
-            "name": "pca10056e/s112"
+			"path": "targets/pca10056/s140",
+			"name": "pca10056/s140"
 		},
 		{
 			"path": "."
 		}
-	],
-	"settings": {
-		"files.associations": {
-			"stdint.h": "c",
-			"nrf.h": "c",
-			"stdbool.h": "c",
-			"string.h": "c"
-		}
-	}
+	]
 }

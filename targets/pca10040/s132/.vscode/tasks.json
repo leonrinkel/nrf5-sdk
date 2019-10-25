@@ -6,6 +6,9 @@
         {
             "label": "Build",
             "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/armgcc"
+            },
             "command": "make",
             "problemMatcher": [],
             "group": "build"
@@ -13,18 +16,27 @@
         {
             "label": "Flash",
             "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/armgcc"
+            },
             "command": "make flash",
             "problemMatcher": []
         },
         {
-            "label": "Flash softdevice",
+            "label": "Flash Softdevice",
             "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/armgcc"
+            },
             "command": "make flash_softdevice",
             "problemMatcher": []
         },
         {
             "label": "Erase",
             "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/armgcc"
+            },
             "command": "make erase",
             "problemMatcher": []
         }

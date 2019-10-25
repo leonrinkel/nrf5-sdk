@@ -8,7 +8,7 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/_build/nrf52832_xxaa.out",
+            "program": "${workspaceFolder}/armgcc/_build/nrf52832_xxaa.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -23,7 +23,7 @@
             "filterStdout": true,
             "setupCommands": [
                 { "text": "target extended-remote localhost:2331" },
-                { "text": "load ${workspaceFolder}/_build/nrf52832_xxaa.out" },
+                { "text": "load ${workspaceFolder}/armgcc/_build/nrf52832_xxaa.out" },
                 { "text": "monitor reset" }
             ]
         }
